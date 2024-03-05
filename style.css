@@ -1,0 +1,175 @@
+*, body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#headerInput{
+    width: 1000px;
+    height: 24px;
+    border: 1px solid grey;
+    border-radius: 14px;
+    padding-left: 30px;
+    background-color: #EEEEEE;
+}
+
+#headerLayout{
+    display: flex;
+    top: 0%;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+
+#unsplash-home{
+     margin-left: 10px;
+}
+
+
+
+#inputBox{
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 0%;   
+
+  
+}
+
+#searchIcon{
+    position: relative;
+    left: 24px;
+    top: 5px;
+    
+    
+}
+#head_first{
+    display: flex;
+    margin-left: 2px;
+    width:70% ;
+
+}
+
+#logo{
+   
+}
+.head_Second_1{
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 30%;
+}
+
+#head_second{
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    width: 50%;
+    
+    
+    
+    
+}
+
+#head_second a{
+    text-decoration: none;
+    color:black ;
+}
+
+.button {
+    background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid purple;
+  }
+
+#hamburger{
+     margin-right: 5px;
+}
+
+#head_third{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 40%;
+
+}
+
+#navigation_Section{
+    display: flex;
+    margin-left: 10px
+}
+
+#navigation_Section a{
+    text-decoration: none;
+    font-size: 11px;
+    color: black;
+    padding-right: 8px;
+}
+
+#cover_Section{
+  /* position: absolute; */
+
+}
+
+#cover_Section img{
+    background-size: 100%;
+    
+    height: 20rem;
+    width: 100%;
+}
+
+#coverInput{
+    width: 600px;
+    height: 28px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    padding-left: 25px;
+}
+
+#cover_Text{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    color: white;
+}
+
+#cover_Text h2{
+     font-weight: bolder;
+     font-size: 40px;
+}
+
+#verticalLine{
+    width: 1px;
+    height: 15px;
+     background-color: grey;
+     margin-right:6px;
+}
+
+input:focus{
+    outline: none;
+}
+
+#cover_Text h2{
+    margin-bottom: 10px;
+}
+
+#second_p2{
+    margin-bottom: 12px;
+}
+
+#coverInput{
+    margin-bottom: 10px;
+}
